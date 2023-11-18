@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Allows the MUI grid rows to expand to child height */
+.MuiDataGrid-viewport,
+.MuiDataGrid-row,
+.MuiDataGrid-renderingZone {
+  max-height: fit-content !important;
+}
+
+/* Allows the MUI grid rows to expand to child height */
+.MuiDataGrid-cell {
+  max-height: fit-content !important;
+  overflow: auto;
+  white-space: initial !important;
+  line-height: 16px !important;
+  display: flex !important;
+  align-items: center;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+
+
+.swal2-container {
+  z-index: 10000 !important;
+}
