@@ -64,7 +64,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
           name="aip_reference_code"
           onChange={handleChange}
           value={aip_reference_code}
-          inputRef={aip_reference_codeRef}
+          // inputRef={aip_reference_codeRef}
           md={12}
         />
 
@@ -76,7 +76,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
           label="Project Title"
           name="project_name"
           onChange={handleChange}
-          inputRef={project_nameRef}
+          // inputRef={project_nameRef}
           value={project_name}
           md={12}
         />
@@ -89,7 +89,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
           label="Barangay"
           name="barangay"
           onChange={handleChange}
-          inputRef={barangayRef}
+          // inputRef={barangayRef}
           value={barangay}
           md={4}
         />
@@ -116,7 +116,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
           label="Province"
           name="province"
           onChange={handleChange}
-          inputRef={provinceRef}
+          // inputRef={provinceRef}
           value={province}
           InputProps={{
             readOnly: true,
@@ -131,7 +131,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
           label="Implementing Office"
           name="implementing_office"
           onChange={handleChange}
-          inputRef={implementing_officeRef}
+          // inputRef={implementing_officeRef}
           value={implementing_office}
           md={4}
         />
@@ -143,7 +143,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
           label="Expected Output"
           name="expected_output"
           onChange={handleChange}
-          inputRef={expected_outputRef}
+          // inputRef={expected_outputRef}
           value={expected_output}
           md={8}
         />
@@ -170,7 +170,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
           label="Capital Outlay"
           name="capital_outlay"
           onChange={handleChange}
-          inputRef={capital_outlayRef}
+          // inputRef={capital_outlayRef}
           value={capital_outlay}
           md={4}
         />
@@ -182,7 +182,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
           label="Total"
           name="total"
           onChange={handleChange}
-          inputRef={totalRef}
+          // inputRef={totalRef}
           value={total}
           md={4}
         />
@@ -196,7 +196,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
               shrink: true,
             }}
             onChange={handleChange}
-            inputRef={starting_dateRef}
+            // inputRef={starting_dateRef}
             value={starting_date}
             size="small"
           />
@@ -211,7 +211,7 @@ const ProjectForm = ({ handleChangeAutoComplete, handleChange }) => {
               shrink: true,
             }}
             onChange={handleChange}
-            inputRef={completion_dateRef}
+            // inputRef={completion_dateRef}
             value={completion_date}
             size="small"
           />
